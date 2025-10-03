@@ -1,8 +1,8 @@
 /*
 Originial Coder: Owynn A.
 Recent Coder: Zackery E.
-Recent Changes: Added variables and headers
-Last date worked on: 9/29/2025
+Recent Changes: Added basic return logic
+Last date worked on: 10/3/2025
 */
 
 using UnityEngine;
@@ -17,5 +17,18 @@ public class ObjectBehaviour : MonoBehaviour
     [Header("Info")]
     public ObjectSpawner originSpawn;
     public Transform returnToObject; // Object to return to (Ghost)
+    public ThrowObjectBehavior throwObjectBehavior;
 
-}// end class
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Hand"))
+        {
+            throwObjectBehavior.StartThrow(gameObject, returnToObject.position, throwSpeed);
+        }
+        else
+        {
+            // Damage Logic
+        }
+    }
+
+}

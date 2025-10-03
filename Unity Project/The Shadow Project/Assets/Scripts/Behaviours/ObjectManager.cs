@@ -15,6 +15,7 @@ public class ObjectManager : MonoBehaviour
     public List<ObjectBehaviour> spawnedObjects = new List<ObjectBehaviour>();
 
     public Transform returnToObject;
+    public ThrowObjectBehavior throwObjectBehavior;
 
     public void spawnRandom(int amount)
     {
@@ -44,6 +45,7 @@ public class ObjectManager : MonoBehaviour
             ObjectBehaviour objectBehaviour = newObject.GetComponent<ObjectBehaviour>();
             objectBehaviour.originSpawn = randomSpawner;
             objectBehaviour.returnToObject = returnToObject;
+            objectBehaviour.throwObjectBehavior = throwObjectBehavior;
 
             spawnedObjects.Add(objectBehaviour);
 
