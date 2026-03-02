@@ -62531,6 +62531,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 30db92cce7a364bd0b4c187108231b11, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1993776381}
+    - targetCorrespondingSourceObject: {fileID: 3638414788905943111, guid: 30db92cce7a364bd0b4c187108231b11, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1993776381}
   m_SourcePrefab: {fileID: 100100000, guid: 30db92cce7a364bd0b4c187108231b11, type: 3}
 --- !u!1 &1993776368 stripped
 GameObject:
@@ -63071,6 +63074,21 @@ MonoBehaviour:
   isAttacking: 0
   throwable: {fileID: 0}
   blinkTime: 0.3
+  ui_attackIndicatorSmall:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 846db622be6df5940955f4d91aef8154, type: 2}
+  smallIndicator: {fileID: 1222645521}
+  ui_attackIndicatorMed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 846db622be6df5940955f4d91aef8154, type: 2}
+  medIndicator: {fileID: 1932832351}
+  ui_attackIndicatorLarge:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 846db622be6df5940955f4d91aef8154, type: 2}
+  largeIndicator: {fileID: 1077857161}
 --- !u!1 &2004800255 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3638414788905943111, guid: 30db92cce7a364bd0b4c187108231b11, type: 3}
@@ -65556,4 +65574,3 @@ SceneRoots:
   - {fileID: 1342392692}
   - {fileID: 1562486039}
   - {fileID: 1773388142}
-  - {fileID: 847489272}
