@@ -280,6 +280,10 @@ GameObject:
   - component: {fileID: 7306216300213312742}
   - component: {fileID: 336858221162447805}
   - component: {fileID: 3891247254946698184}
+  - component: {fileID: 4064776239186961507}
+  - component: {fileID: 1065852616044772542}
+  - component: {fileID: -457611040285243145}
+  - component: {fileID: -4694065205117182123}
   m_Layer: 0
   m_Name: TallCandleRef_TallCandle (1)
   m_TagString: Untagged
@@ -296,7 +300,7 @@ Transform:
   m_GameObject: {fileID: 1367279248734108591}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1377041, y: -3.8166335e-17, z: -0.28765753}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.551885, y: 0.551885, z: 0.551885}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -359,6 +363,77 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4064776239186961507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367279248734108591}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33a30d312fdf41a5ae8024f799c0cf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectBehaviour
+  size: 1
+  damage: 15
+  throwSpeed: 2
+  returnable: 0
+  thrown: 0
+  returned: 0
+  hit: 0
+  originSpawn: {fileID: 0}
+--- !u!114 &1065852616044772542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367279248734108591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 978af57a1bff7414a835bb6f600e22c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SetItemType
+  itemType:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  itemSize:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!114 &-457611040285243145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367279248734108591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65a3124056c447baa9f0a2f368ab3b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResetObjectBehaviour
+--- !u!114 &-4694065205117182123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367279248734108591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba131a64f6fc4f969617b340b6c3a4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionBehaviour
+  onCollisionEnter:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2168364916174925619
 GameObject:
   m_ObjectHideFlags: 0
