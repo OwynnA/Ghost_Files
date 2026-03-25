@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4000323774398705876}
   - component: {fileID: 5450785993401403865}
   - component: {fileID: 581918390871583249}
+  - component: {fileID: 5732578216171918997}
   m_Layer: 0
   m_Name: OpenBarrelRef_Open_Barrel
   m_TagString: Untagged
@@ -164,3 +165,24 @@ MonoBehaviour:
   onCollisionEnter:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &5732578216171918997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398523406176657866}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.13768852, y: 0.16149019, z: 0.1376883}
+  m_Center: {x: 0.000000033527613, y: 0.08074508, z: 0.000000037252903}

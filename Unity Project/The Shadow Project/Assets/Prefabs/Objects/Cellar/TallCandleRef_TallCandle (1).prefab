@@ -284,6 +284,7 @@ GameObject:
   - component: {fileID: 1065852616044772542}
   - component: {fileID: -457611040285243145}
   - component: {fileID: -4694065205117182123}
+  - component: {fileID: 2805999723256530977}
   m_Layer: 0
   m_Name: TallCandleRef_TallCandle (1)
   m_TagString: Untagged
@@ -434,6 +435,27 @@ MonoBehaviour:
   onCollisionEnter:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &2805999723256530977
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367279248734108591}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.13474534, y: 0.4856094, z: 0.11618744}
+  m_Center: {x: 0.0006780327, y: 0.24268767, z: 0.006951305}
 --- !u!1 &2168364916174925619
 GameObject:
   m_ObjectHideFlags: 0

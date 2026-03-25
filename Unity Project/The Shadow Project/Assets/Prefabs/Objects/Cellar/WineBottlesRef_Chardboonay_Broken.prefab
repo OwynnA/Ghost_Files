@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 426576004133071715}
   - component: {fileID: 3122005584956570479}
   - component: {fileID: 206773385726517427}
+  - component: {fileID: -9150997760742152383}
   m_Layer: 0
   m_Name: WineBottlesRef_Chardboonay_Broken
   m_TagString: Untagged
@@ -111,6 +112,27 @@ MonoBehaviour:
   onCollisionEnter:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &-9150997760742152383
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936361698227373765}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3471178333664824163
 GameObject:
   m_ObjectHideFlags: 0

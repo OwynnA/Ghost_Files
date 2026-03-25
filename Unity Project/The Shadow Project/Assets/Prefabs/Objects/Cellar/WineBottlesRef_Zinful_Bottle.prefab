@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7318303585073299029}
   - component: {fileID: 4270200426016941872}
   - component: {fileID: 136148702232927225}
+  - component: {fileID: 4619535194880841263}
   m_Layer: 0
   m_Name: WineBottlesRef_Zinful_Bottle
   m_TagString: Untagged
@@ -167,3 +168,24 @@ MonoBehaviour:
   onCollisionEnter:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &4619535194880841263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7056830909192539628}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.043307878, y: 0.13549927, z: 0.043307953}
+  m_Center: {x: 0.000000107102096, y: 0.06774974, z: -0.000000054948032}

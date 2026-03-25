@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8845213478182174143}
   - component: {fileID: 2752928821420438555}
   - component: {fileID: 2710270020708276706}
+  - component: {fileID: 6166687955017372948}
   m_Layer: 0
   m_Name: WineBottlesRef_Chardboonay_Bottle
   m_TagString: Untagged
@@ -167,3 +168,24 @@ MonoBehaviour:
   onCollisionEnter:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &6166687955017372948
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7996660484877937272}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.064454645, y: 0.1353479, z: 0.0644548}
+  m_Center: {x: 0.000000113621354, y: 0.020669948, z: 0.00000009685755}

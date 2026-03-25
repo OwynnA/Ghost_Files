@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4245300457612710795}
   - component: {fileID: -8520284390865899502}
   - component: {fileID: 2502420874859917052}
+  - component: {fileID: -6122686633359468068}
   m_Layer: 0
   m_Name: BarrelRef_Normal_Barrel
   m_TagString: Untagged
@@ -164,3 +165,24 @@ MonoBehaviour:
   onCollisionEnter:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &-6122686633359468068
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346767458396981217}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.13768846, y: 0.1614902, z: 0.13768838}
+  m_Center: {x: -0.00000008940698, y: 0.080745086, z: 0.000000037252907}

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -8988777979089967738}
   - component: {fileID: 5922237877788466732}
   - component: {fileID: 8940208761855385600}
+  - component: {fileID: 5171789229160787489}
   m_Layer: 0
   m_Name: Attc_Prop_Environment_Crate2
   m_TagString: Untagged
@@ -164,3 +165,24 @@ MonoBehaviour:
   onCollisionEnter:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &5171789229160787489
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2778648849035060489}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.1175336, y: 0.11753357, z: 0.11667598}
+  m_Center: {x: -0.00000000745058, y: 0.056552093, z: 0.000000001862645}

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 707794417154968490}
   - component: {fileID: 8971841555606630292}
   - component: {fileID: 3092985986066870852}
+  - component: {fileID: 9108464870146570737}
   m_Layer: 0
   m_Name: CrackedBarrelRef_Cracked_Barrel
   m_TagString: Untagged
@@ -164,3 +165,24 @@ MonoBehaviour:
   onCollisionEnter:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &9108464870146570737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6856424760120856517}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.13768825, y: 0.16150469, z: 0.13768837}
+  m_Center: {x: 0, y: 0.08075233, z: 0.000000022351742}
