@@ -36,7 +36,7 @@ public class Body_Tracking : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         string raw = udpBody.data;
         if (string.IsNullOrWhiteSpace(raw))
