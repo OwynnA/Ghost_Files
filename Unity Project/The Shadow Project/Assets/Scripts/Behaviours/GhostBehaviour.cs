@@ -88,6 +88,8 @@ public class GhostBehaviour : MonoBehaviour
 
     private IEnumerator WanderRoutine()
     {
+		CancelAttack();
+		Debug.Log("Wandering");
         yield return new WaitForSeconds(3);
         // Set wander to true, turn of attacking and drifitng
         isWandering = true;
@@ -115,6 +117,7 @@ public class GhostBehaviour : MonoBehaviour
 
     private IEnumerator DriftRoutine()
     {
+		Debug.Log("Drifting");
         // Turn on drifting, Turn of wandering is wandering is true,
         isDrifting = true;
         isWandering = false;
@@ -133,7 +136,8 @@ public class GhostBehaviour : MonoBehaviour
 
         if (isDrifting == false)
         {
-            yield return null;
+			StartWander();
+            yield break;
         }
         else
         {
@@ -359,4 +363,9 @@ public class GhostBehaviour : MonoBehaviour
         
         return players[playerIndex].posList[posIndex];
     }
+	public void CancelAttack()
+	{
+		ResetObjectBehaviour reset = throwable.GetComponentInChildren<ResetObjectBehaviour>();
+		reset.Reset();
+	}
 }
