@@ -397,7 +397,6 @@ GameObject:
   - component: {fileID: 45516246}
   - component: {fileID: 45516249}
   - component: {fileID: 45516248}
-  - component: {fileID: 45516250}
   m_Layer: 0
   m_Name: Boot_Only_Geo
   m_TagString: Untagged
@@ -476,19 +475,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45516245}
   m_Mesh: {fileID: -5546347261141537002, guid: f008a3f28981fe84fa99ada944daa189, type: 3}
---- !u!114 &45516250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 45516245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ada208555c5f1514b91a2ad11b186204, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MatchPostion
-  target: {fileID: 1327768888}
 --- !u!1 &65974852
 GameObject:
   m_ObjectHideFlags: 0
@@ -8557,8 +8543,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1999683281}
+  m_Children: []
   m_Father: {fileID: 1389749395}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &372395910
@@ -8579,7 +8564,7 @@ MonoBehaviour:
     m_Mid: {fileID: 891163038}
     m_Tip: {fileID: 891163036}
     m_Target: {fileID: 891163036}
-    m_Hint: {fileID: 1999683281}
+    m_Hint: {fileID: 0}
     m_TargetPositionWeight: 1
     m_TargetRotationWeight: 1
     m_HintWeight: 1
@@ -21235,7 +21220,7 @@ MonoBehaviour:
     IKPositionWeight: 1
     root: {fileID: 821116789}
     target: {fileID: 1322109850}
-    IKRotationWeight: 1
+    IKRotationWeight: 0
     IKRotation: {x: -0, y: 1, z: -0, w: 0}
     bendNormal: {x: -0.00024563153, y: -0.0020196345, z: 0.000056143963}
     bone1:
@@ -22210,7 +22195,6 @@ GameObject:
   - component: {fileID: 874236112}
   - component: {fileID: 874236115}
   - component: {fileID: 874236114}
-  - component: {fileID: 874236116}
   m_Layer: 0
   m_Name: Boot_Only_Geo
   m_TagString: Untagged
@@ -22289,19 +22273,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874236111}
   m_Mesh: {fileID: -4545423930167495100, guid: f008a3f28981fe84fa99ada944daa189, type: 3}
---- !u!114 &874236116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 874236111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ada208555c5f1514b91a2ad11b186204, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MatchPostion
-  target: {fileID: 584160409}
 --- !u!1 &874317780
 GameObject:
   m_ObjectHideFlags: 0
@@ -60171,7 +60142,7 @@ MonoBehaviour:
     goal: 1
     bendModifier: 1
     maintainRotationWeight: 0
-    bendModifierWeight: 1
+    bendModifierWeight: 0
     bendGoal: {fileID: 0}
 --- !u!1 &1956470086
 GameObject:
@@ -62528,12 +62499,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 30db92cce7a364bd0b4c187108231b11, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1993776380}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 30db92cce7a364bd0b4c187108231b11, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 3638414788905943111, guid: 30db92cce7a364bd0b4c187108231b11, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1993776381}
     - targetCorrespondingSourceObject: {fileID: 3638414788905943111, guid: 30db92cce7a364bd0b4c187108231b11, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1993776381}
+      addedObject: {fileID: 2004800256}
   m_SourcePrefab: {fileID: 100100000, guid: 30db92cce7a364bd0b4c187108231b11, type: 3}
 --- !u!1 &1993776368 stripped
 GameObject:
@@ -62852,7 +62823,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993776368}
+  m_GameObject: {fileID: 2004800255}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d2ed9e0f1bf9a846acbbad1cbf954b6, type: 3}
@@ -65574,3 +65545,4 @@ SceneRoots:
   - {fileID: 1342392692}
   - {fileID: 1562486039}
   - {fileID: 1773388142}
+  - {fileID: 847489272}
