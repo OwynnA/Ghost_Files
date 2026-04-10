@@ -6423,7 +6423,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.08715578, w: 0.9961947}
   m_LocalPosition: {x: 0, y: -0.0017999951, z: 0}
-  m_LocalScale: {x: 0.063909985, y: 0.02360032, z: 0.005531274}
+  m_LocalScale: {x: 0.06390989, y: 0.045085523, z: 0.03973571}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 131697873}
@@ -10104,7 +10104,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.08715578, w: 0.9961947}
   m_LocalPosition: {x: 0, y: -0.0032001352, z: 0.000067279674}
-  m_LocalScale: {x: 0.06390994, y: 0.023600308, z: 0.005531274}
+  m_LocalScale: {x: 0.06390989, y: 0.045085523, z: 0.03973571}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 670973572}
@@ -10529,7 +10529,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.08715578, w: 0.9961947}
   m_LocalPosition: {x: 0, y: -0.003200016, z: 0.000067279674}
-  m_LocalScale: {x: 0.0639099, y: 0.023600291, z: 0.005531274}
+  m_LocalScale: {x: 0.06390989, y: 0.045085523, z: 0.03973571}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 790660270}
@@ -17484,7 +17484,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.08715578, w: 0.9961947}
   m_LocalPosition: {x: 0, y: -0.003200016, z: 0.000067279674}
-  m_LocalScale: {x: 0.06390996, y: 0.023600314, z: 0.005531274}
+  m_LocalScale: {x: 0.06390989, y: 0.045085523, z: 0.03973571}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1253577661}
@@ -17652,7 +17652,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.08715578, w: 0.9961947}
   m_LocalPosition: {x: 0, y: -0.0018001143, z: 0}
-  m_LocalScale: {x: 0.06390994, y: 0.023600308, z: 0.005531274}
+  m_LocalScale: {x: 0.06390989, y: 0.045085523, z: 0.03973571}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1413185216}
@@ -17963,7 +17963,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.08715578, w: 0.9961947}
   m_LocalPosition: {x: -0.009, y: -0.0033, z: -0.0025240341}
-  m_LocalScale: {x: 0.06390987, y: 0.023600277, z: 0.0036891385}
+  m_LocalScale: {x: 0.06390989, y: 0.045085523, z: 0.03973571}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 284306709}
@@ -18820,7 +18820,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.08715578, w: 0.9961947}
   m_LocalPosition: {x: 0, y: -0.0017999951, z: 0}
-  m_LocalScale: {x: 0.0639099, y: 0.023600291, z: 0.005531274}
+  m_LocalScale: {x: 0.06390989, y: 0.045085523, z: 0.03973571}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 604216375}
@@ -28723,7 +28723,7 @@ MonoBehaviour:
     IKPositionWeight: 1
     root: {fileID: 590189803}
     target: {fileID: 255716185}
-    IKRotationWeight: 1
+    IKRotationWeight: 0
     IKRotation: {x: -0, y: 1, z: -0, w: 0}
     bendNormal: {x: -0.00024563153, y: -0.0020196345, z: 0.000056143963}
     bone1:
@@ -51561,7 +51561,7 @@ MonoBehaviour:
     IKPositionWeight: 1
     root: {fileID: 1532539290}
     target: {fileID: 1309976924}
-    IKRotationWeight: 1
+    IKRotationWeight: 0
     IKRotation: {x: -0, y: 1, z: -0, w: 0}
     bendNormal: {x: -0.0002496322, y: 0.0020454903, z: -0.000043287702}
     bone1:
@@ -60168,7 +60168,7 @@ MonoBehaviour:
       length: 0
       sqrMag: 0
       axis: {x: -1, y: -0, z: -0}
-    goal: 3
+    goal: 1
     bendModifier: 1
     maintainRotationWeight: 0
     bendModifierWeight: 1
@@ -60826,7 +60826,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.08715578, w: 0.9961947}
   m_LocalPosition: {x: 0.0094, y: -0.0049, z: -0.0024570338}
-  m_LocalScale: {x: 0.06390989, y: 0.023600284, z: 0.0036891385}
+  m_LocalScale: {x: 0.06390989, y: 0.045085523, z: 0.03973571}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1869631234}
@@ -64069,7 +64069,7 @@ MonoBehaviour:
     IKPositionWeight: 1
     root: {fileID: 2054948867}
     target: {fileID: 460008792}
-    IKRotationWeight: 1
+    IKRotationWeight: 0
     IKRotation: {x: -0, y: 1, z: -0, w: 0}
     bendNormal: {x: -0.0002496322, y: 0.002045489, z: -0.000043284916}
     bone1:
