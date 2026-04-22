@@ -8,7 +8,7 @@
 						<Action Name="" ID="{4351F386-D96B-4CBA-9DDF-7234380680F5}" ShortID="383794119">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="test_sfx" ID="{C25669A7-156C-464F-9024-9DA34376BC83}" WorkUnitID="{41E1F83B-F130-4671-BCE9-EFC37308F6D5}"/>
+									<ObjectRef Name="test_beep" ID="{97AFE133-4E4C-4D25-86A0-272609A461D7}" WorkUnitID="{41E1F83B-F130-4671-BCE9-EFC37308F6D5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -20,38 +20,197 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="amb_attic_start" ID="{DB3D22F6-C980-463D-B4B6-422D11971061}">
+						<Folder Name="Attic" ID="{951A795A-619C-422E-BAF8-979B71E8915F}" ShortID="1025242225">
 							<ChildrenList>
-								<Action Name="" ID="{81352727-73F3-4EDF-A099-6F9CD3429CBD}" ShortID="22696013">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="env_amb_loop" ID="{6FFD4341-5AB2-411E-8A3A-D991948F417B}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{D18E30D4-65BD-45A1-8519-350F56D0E8AA}" ShortID="252695389">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="env_hauntcreak" ID="{70CC570C-3A04-479B-924B-CF13B3649321}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{7CA729B8-9C95-47E2-AEB3-1D5391B79E57}" ShortID="99912409">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="env_squeak" ID="{2499D247-BFDC-4D27-B170-A00AC9BE5E6F}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{8166E230-39A6-46B3-9BC7-EC43B30DAD63}" ShortID="314532341">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="env_rats" ID="{E4FFB394-AED9-4CB6-8D4F-03AF0675F69C}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="amb_attic_start" ID="{DB3D22F6-C980-463D-B4B6-422D11971061}">
+									<ChildrenList>
+										<Action Name="" ID="{0E93D849-7D31-4CEF-A060-DB6EF6AAB2E4}" ShortID="51420653">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="36"/>
+												<Property Name="SeekPercent" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{93410452-CED3-4FE9-99EA-05432AE9AE3A}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="21"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_attic_amb_loop" ID="{6FFD4341-5AB2-411E-8A3A-D991948F417B}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{81352727-73F3-4EDF-A099-6F9CD3429CBD}" ShortID="22696013">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_attic_amb_loop" ID="{6FFD4341-5AB2-411E-8A3A-D991948F417B}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{D18E30D4-65BD-45A1-8519-350F56D0E8AA}" ShortID="252695389">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_hauntcreak" ID="{70CC570C-3A04-479B-924B-CF13B3649321}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{7CA729B8-9C95-47E2-AEB3-1D5391B79E57}" ShortID="99912409">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_squeak" ID="{2499D247-BFDC-4D27-B170-A00AC9BE5E6F}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{8166E230-39A6-46B3-9BC7-EC43B30DAD63}" ShortID="314532341">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_rats" ID="{E4FFB394-AED9-4CB6-8D4F-03AF0675F69C}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="amb_attic_stop" ID="{B2EEFB92-CE11-444E-B2AC-F6B96B543D95}">
+									<ChildrenList>
+										<Action Name="" ID="{41040556-5CC0-44A9-B10B-99D0249CBF84}" ShortID="170836294">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_attic_amb_loop" ID="{6FFD4341-5AB2-411E-8A3A-D991948F417B}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{7E75BAC4-0F69-4BF8-819D-BC383227177F}" ShortID="105009734">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_hauntcreak" ID="{70CC570C-3A04-479B-924B-CF13B3649321}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{48BEC5B6-B531-4106-B3FF-64B01F9A57A4}" ShortID="801643699">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_squeak" ID="{2499D247-BFDC-4D27-B170-A00AC9BE5E6F}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A3442F82-29A2-4948-9FB4-A8A337760F7C}" ShortID="263522225">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_rats" ID="{E4FFB394-AED9-4CB6-8D4F-03AF0675F69C}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
+						</Folder>
+						<Folder Name="Cellar" ID="{E5AD0927-12E7-4569-B706-0AEA9F6B919D}" ShortID="85559884">
+							<ChildrenList>
+								<Event Name="amb_cellar_start" ID="{6684EF0A-F8E6-4606-B54B-BDC9B07FFA8F}">
+									<ChildrenList>
+										<Action Name="" ID="{F469314F-BC95-477D-B3EE-F54396D20868}" ShortID="462763039">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="36"/>
+												<Property Name="SeekPercent" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F6A5D68E-4DA2-4993-99A8-597DEA0729BF}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="21"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_cellar_amb_loop" ID="{04ABC034-34A6-4652-9848-718383AAD619}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A497D411-EAF7-491F-A937-4DEC1269BF66}" ShortID="357591297">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_cellar_amb_loop" ID="{04ABC034-34A6-4652-9848-718383AAD619}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{C19B3A3A-4E2E-45E9-94A5-75F691D6C65D}" ShortID="109572504">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="2">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7CA60D81-EF05-42F7-BC79-6C7B4730342C}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_waterdrips" ID="{1EE34061-7308-4456-AB9A-0E089FD0D338}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{23EDECCF-89E0-461F-8A20-334E786B5A1E}" ShortID="726990939">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="2.5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5DB73AD8-40A6-4F41-B10A-21C271C25730}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_waterdrops" ID="{C22A9A32-5CF0-4A16-AAAD-3C7342D1D52F}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemies" ID="{ADDCD6C1-5DB5-4590-A86E-37A3FA5C918C}" ShortID="693412819">
@@ -69,6 +228,42 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ghost_woosh" ID="{181E8136-3ED7-4745-90EA-9E7B7C1B1130}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ghost_surprise" ID="{1C229BFC-E5F1-4E5B-B121-A8594CD83310}">
+							<ChildrenList>
+								<Action Name="" ID="{9FCCD191-924A-4839-8911-DDD685DE06BA}" ShortID="411876887">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ghost_notice" ID="{0D8BAD30-D9AB-4769-9166-93EA0A84ECF0}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ghost_appear" ID="{61D77602-42F6-49D8-A73B-E1C9D4FAEDF3}">
+							<ChildrenList>
+								<Action Name="" ID="{77550BD3-8F80-498E-B60A-D3D743A8D5EF}" ShortID="461176983">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.55"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ghost_appear" ID="{CD22162B-8E52-4672-B25A-9F9D3195461C}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ghost_damage" ID="{69598DCA-D792-4216-9B9D-CA8A45AEF431}">
+							<ChildrenList>
+								<Action Name="" ID="{0C62750D-388D-4CEE-A9C7-7DAE27FFD160}" ShortID="197570757">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ghost_damage" ID="{6D99EC3F-2485-4708-8D66-A893CE6CB759}" WorkUnitID="{561680CE-9685-4CF3-A1A2-E3EC450EC2E2}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -112,6 +307,27 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{1A653BCA-AB83-4974-A745-5137C2014781}" ShortID="984559290">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="UI_AttackIndicatorS" ID="{C256FC78-26C0-4300-A1C7-47091C49FBEB}">
+							<ChildrenList>
+								<Action Name="" ID="{BC451B9F-E31B-4203-9441-4C0A99901901}" ShortID="477916671">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Small" ID="{01C95446-2FFA-46A4-AE43-C2AD609DAC6F}" WorkUnitID="{B962D48D-8DAA-4C05-BACA-1C09989032AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_AttackIndicatorM" ID="{D3D34853-353F-43C9-842F-E8DE866A9D9C}"/>
+						<Event Name="UI_AttackIndicatorL" ID="{481D5A4E-3B58-4CC2-9785-4EBB78A66EC9}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

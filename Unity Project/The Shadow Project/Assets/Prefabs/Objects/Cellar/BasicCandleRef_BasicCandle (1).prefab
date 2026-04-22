@@ -221,7 +221,7 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: fd6c1a0337493c34e93f804f8c35753e, type: 2}
   itemSize:
     idInternal: 0
     valueGuidInternal: 
