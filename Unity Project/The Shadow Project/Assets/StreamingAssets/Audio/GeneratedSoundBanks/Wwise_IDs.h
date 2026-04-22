@@ -48,6 +48,7 @@ namespace AK
                 static const AkUniqueID CANDLE = 2912468606U;
                 static const AkUniqueID CARDBOARD = 1229756253U;
                 static const AkUniqueID DEFAULT = 782826392U;
+                static const AkUniqueID GLASS = 2449969375U;
                 static const AkUniqueID STOOL = 1200188298U;
                 static const AkUniqueID TABLE = 2048817515U;
                 static const AkUniqueID WOOD = 2058049674U;
