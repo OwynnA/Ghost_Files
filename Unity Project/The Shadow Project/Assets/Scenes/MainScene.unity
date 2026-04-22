@@ -10074,7 +10074,7 @@ GameObject:
   - component: {fileID: 464599413}
   m_Layer: 0
   m_Name: PlayerAttackBox (3)
-  m_TagString: Hand
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10499,7 +10499,7 @@ GameObject:
   - component: {fileID: 499880386}
   m_Layer: 0
   m_Name: PlayerAttackBox (2)
-  m_TagString: Hand
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16755,8 +16755,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.3001933, y: 1, z: 0.08311653}
-  m_Center: {x: -0.35752505, y: 0, z: 0.37072015}
+  m_Size: {x: 3.3001933, y: 1.4313371, z: 0.08311653}
+  m_Center: {x: -0.3575251, y: 0.21566862, z: 0.37072015}
 --- !u!4 &590486061
 Transform:
   m_ObjectHideFlags: 0
@@ -16766,7 +16766,7 @@ Transform:
   m_GameObject: {fileID: 590486058}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.565, z: -0.606}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17622,7 +17622,7 @@ GameObject:
   - component: {fileID: 634889974}
   m_Layer: 0
   m_Name: PlayerAttackBox (4)
-  m_TagString: Hand
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17811,7 +17811,7 @@ GameObject:
   - component: {fileID: 640726121}
   m_Layer: 0
   m_Name: PlayerAttackBox
-  m_TagString: Hand
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18790,7 +18790,7 @@ GameObject:
   - component: {fileID: 710591103}
   m_Layer: 0
   m_Name: PlayerAttackBox (3)
-  m_TagString: Hand
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48710,6 +48710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Attc_Ghos_Main_Environment
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3f6cb1422ef55d344896b11321fb1ce6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1084067451701385750, guid: 3f6cb1422ef55d344896b11321fb1ce6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -60782,7 +60786,7 @@ GameObject:
   - component: {fileID: 1984492124}
   m_Layer: 0
   m_Name: PlayerAttackBox (1)
-  m_TagString: Hand
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
